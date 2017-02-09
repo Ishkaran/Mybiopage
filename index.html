@@ -5,7 +5,8 @@
 	
 		<title>My Bio</title>
 		<link rel="stylesheet" type="text/css" href="./css/masterstyles.css">
-	
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	</head>
 	<body>
 		<div class="wrapper" login-page>
@@ -20,7 +21,7 @@
                         <input class="login-input" type="text" id="username">
                         <label for="password">Password</label>
                         <input class="login-input" type="password" id="password">
-                        <button onclick="login()" class="login-button" id="btn-login" >Login</button>
+                        <button onclick="login()" class="login-button btn btn-primary" id="btn-login" >Login</button>
                         <div id="error-container">
                             <p class="error-message" id="error-text"> Invalid Login </p>
                         </div>
